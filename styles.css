@@ -1,13 +1,13 @@
 body {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
-  background-color: #f0f0f0;
-  color: #333;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #e6f0fa; /* light blue-gray */
+  color: #1a1a2e; /* dark navy text */
   margin: 0;
   padding: 0;
 }
 
 header {
-  background-color: #333;
+  background-color: #0f4c81; /* deep blue */
   color: white;
   padding: 20px;
   text-align: center;
@@ -18,7 +18,7 @@ main {
 }
 
 footer {
-  background-color: #333;
+  background-color: #0f4c81; /* deep blue */
   color: white;
   text-align: center;
   padding: 10px;

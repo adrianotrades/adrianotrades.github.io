@@ -47,4 +47,6 @@ thead {
   background-color: #0f4c81;
   color: white;
 }
-
+main {
+  padding-bottom: 80px; /* Adjust to be taller than your footer */
+}

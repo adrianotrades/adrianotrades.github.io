@@ -7,25 +7,32 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-  <h1>Sample Chart</h1>
-  <canvas id="myChart" width="400" height="200"></canvas>
+  <h1>Ryder Cup 2025 - Match Points Tournament Matchups</h1>
+  <table>
+  <thead>
+    <tr>
+      <th>Player 1</th> 
+      <th>Player 2</th>
+      <th>Odds 1</th>
+      <th>Odds2</th>
+    </tr>
+  </thead>
+  
+  <tbody>
+    <tr><td>Sam Burns</td><td>Shane Lowry</td><td>1.80</td><td>1.90</td></tr>
+    <tr><td>Patrick Cantlay</td><td>Ludvig Åberg</td><td>1.66</td><td>2.10</td></tr>
+    <tr><td>Bryson DeChambeau</td><td>Rory McIlroy</td><td>1.83</td><td>1.83</td></tr>
+    <tr><td>Harris English</td><td>Justin Rose</td><td>1.80</td><td>1.90</td></tr>
+    <tr><td>Ben Griffin</td><td>Rasmus Højgaard</td><td>1.53</td><td>2.37</td></tr>
+    <tr><td>Russell Henley</td><td>Tyrrell Hatton</td><td>1.90</td><td>1.80</td></tr>
+    <tr><td>Collin Morikawa</td><td>Matt Fitzpatrick</td><td>1.83</td><td>1.83</td></tr>
+    <tr><td>Xander Schauffele</td><td>Tommy Fleetwood</td><td>1.80</td><td>1.90</td></tr>
+    <tr><td>Scottie Scheffler</td><td>Jon Rahm</td><td>1.66</td><td>2.10</td></tr>
+    <tr><td>J.J. Spaun</td><td>Sepp Straka</td><td>1.80</td><td>1.90</td></tr>
+    <tr><td>Justin Thomas</td><td>Viktor Hovland</td><td>1.90</td><td>1.80</td></tr>
+    <tr><td>Cameron Young</td><td>Robert MacIntyre</td><td>1.66</td><td>2.10</td></tr>
+  </tbody>
 
-  <script>
-    const ctx = document.getElementById('myChart').getContext('2d');
-    const myChart = new Chart(ctx, {
-      type: 'bar',
-      data: {
-        labels: ['A', 'B', 'C'],
-        datasets: [{
-          label: 'Sample Data',
-          data: [12, 19, 3],
-          backgroundColor: 'rgba(54, 162, 235, 0.6)'
-        }]
-      },
-      options: {
-        responsive: true
-      }
-    });
-  </script>
 </body>
+
 </html>
